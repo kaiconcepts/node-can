@@ -414,6 +414,7 @@ DatabaseService.prototype.send = function (msg_name) {
     }
 
     this.channel.send(canmsg);
+    return canmsg;
 }
 
 /**
